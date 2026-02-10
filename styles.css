@@ -1,13 +1,14 @@
 /* CSS Variables */
 
 :root {
-    --primary-navy: #398aac;
-    --primary-blue: #3298c4;
+    --primary-navy: #1a4959;
+    --primary-blue: #1a4959;
     --accent-gold: #d4af37;
     --text-primary: #1a1a1a;
     --text-secondary: #666666;
     --neutral-light: #f8f9fa;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -103,7 +104,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #08171e 0%, #2a7994 50%, #000408 100%);
+    background: linear-gradient(135deg, #72c7eb 0%, #1a4959 50%, #010f14 100%);
     overflow: hidden;
     padding-top: 80px;
 }
