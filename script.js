@@ -1,4 +1,4 @@
-   // Load the logo
+
         const logoImg = new Image();
         logoImg.src = '/mnt/user-data/uploads/IMG_8006__1_.png';
         logoImg.onload = function() {
@@ -6,7 +6,6 @@
             document.getElementById('navLogo').src = this.src;
         };
 
-        // Scroll progress bar
         window.addEventListener('scroll', () => {
             const scrollProgress = document.querySelector('.scroll-progress');
             const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -14,7 +13,6 @@
             scrollProgress.style.transform = `scaleX(${scrolled / 100})`;
         });
 
-        // Navigation background on scroll
         const nav = document.querySelector('.nav');
         window.addEventListener('scroll', () => {
             if (window.scrollY > 100) {
@@ -24,7 +22,6 @@
             }
         });
 
-        // Intersection Observer for animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -48,7 +45,7 @@
             animatedElements.forEach(el => observer.observe(el));
         });
 
-        // FAQ Accordion
+      
         const faqItems = document.querySelectorAll('.faq-item');
         faqItems.forEach(item => {
             const question = item.querySelector('.faq-question');
@@ -65,7 +62,7 @@
             });
         });
 
-        // Smooth scroll for anchor links
+          
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -80,8 +77,7 @@
                 }
             });
         });
-
-        // Parallax effect for hero
+ 
         window.addEventListener('scroll', () => {
             const heroContent = document.querySelector('.hero-content');
             const scrolled = window.scrollY;
@@ -91,7 +87,7 @@
             }
         });
 
-        // Button ripple effect
+     
         document.querySelectorAll('.btn').forEach(button => {
             button.addEventListener('click', function(e) {
                 const ripple = document.createElement('span');
