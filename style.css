@@ -78,7 +78,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-.hero > .hero-content > p {
+.hero-content > p {
   font-size: 18px;
   color: #666;
   margin-bottom: 30px;
@@ -88,11 +88,9 @@ h2 {
 .hero-points {
   list-style: none;
   padding: 0;
-  margin: 30px 0;
+  margin: 30px auto;
   text-align: left;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-points li {
@@ -151,18 +149,21 @@ h2 {
   height: 300px;
 }
 
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
 .primary {
   background: linear-gradient(135deg, #1a73e8 0%, #1557b0 100%);
   color: white;
 }
 
 .primary:hover {
-  transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(26, 115, 232, 0.3);
-}
-
-.primary:active {
-  transform: translateY(0);
 }
 
 .secondary {
@@ -173,7 +174,6 @@ h2 {
 
 .secondary:hover {
   background: #f0f7ff;
-  transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(26, 115, 232, 0.15);
 }
 
@@ -284,12 +284,12 @@ h2 {
   font-size: 15px;
   display: inline-block;
   margin-top: 12px;
-  transition: gap 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .service-card a:hover {
   text-decoration: underline;
-  gap: 8px;
+  transform: translateX(4px);
 }
 
 /* ==================== PROCESS ==================== */
@@ -356,6 +356,8 @@ h2 {
   text-align: left;
   transition: background 0.3s ease;
   color: #1a1a1a;
+  position: relative;
+  padding-right: 50px;
 }
 
 .faq-question:hover {
@@ -364,7 +366,10 @@ h2 {
 
 .faq-question::after {
   content: '+';
-  float: right;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 22px;
   font-weight: bold;
   color: #1a73e8;
@@ -372,7 +377,7 @@ h2 {
 }
 
 .faq-item.active .faq-question::after {
-  transform: rotate(45deg);
+  transform: translateY(-50%) rotate(45deg);
 }
 
 .faq-answer {
@@ -386,6 +391,7 @@ h2 {
 
 .faq-item.active .faq-answer {
   display: block;
+  animation: fadeIn 0.3s ease;
 }
 
 .faq-link {
@@ -433,6 +439,7 @@ h2 {
   font-weight: 600;
   color: #1a73e8;
   font-size: 15px;
+  font-style: normal;
 }
 
 /* ==================== FINAL CTA ==================== */
@@ -499,6 +506,15 @@ footer p {
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 768px) {
   section {
@@ -519,6 +535,7 @@ footer p {
 
   .hero-points li {
     padding-left: 0;
+    text-align: left;
   }
 
   .hero-points li::before {
@@ -565,5 +582,15 @@ footer p {
   .btn {
     padding: 12px 24px;
     font-size: 15px;
+  }
+
+  .faq-question {
+    font-size: 15px;
+    padding-right: 45px;
+  }
+
+  .faq-question::after {
+    right: 15px;
+    font-size: 20px;
   }
 }
