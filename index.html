@@ -1,178 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ConsulHub — Certified Translations</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsulHub - Premium Translation & Apostille Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
 <body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-content">
-    <h1>ConsulHub</h1>
-    <h2>Certified Translations, Apostille & Notary Services</h2>
-    <p>
-      Your trusted partner for fast, accurate, and USCIS-accepted certified translations — available nationwide.
-    </p>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==" alt="ConsulHub Logo" class="logo" id="navLogo">
+                <span style="font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.2rem;">ConsulHub</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">How It Works</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
 
-    <ul class="hero-points">
-      <li>Certified translations in 60+ languages, from $34.99 per page</li>
-      <li>Same-day or 24-hour service — no rush fees</li>
-    </ul>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-grid"></div>
+        <div class="floating-element" style="font-size: 4rem; color: rgba(212, 175, 55, 0.3);">🌍</div>
+        <div class="floating-element" style="font-size: 3rem; color: rgba(212, 175, 55, 0.3);">📄</div>
+        <div class="floating-element" style="font-size: 3.5rem; color: rgba(212, 175, 55, 0.3);">✓</div>
+        
+        <div class="hero-content">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==" alt="ConsulHub" class="hero-logo" id="heroLogo">
+            <h1>ConsulHub</h1>
+            <p class="hero-subtitle">Certified Translations, Apostille & Notary Services</p>
+            <p class="hero-description">
+                Your trusted partner for fast, accurate, and USCIS-accepted certified translations — available nationwide with professional excellence.
+            </p>
+            
+            <div class="hero-features">
+                <div class="hero-feature">
+                    <div class="hero-feature-icon">📝</div>
+                    <span>60+ Languages from $34.99/page</span>
+                </div>
+                <div class="hero-feature">
+                    <div class="hero-feature-icon">⚡</div>
+                    <span>Same-Day Service Available</span>
+                </div>
+                <div class="hero-feature">
+                    <div class="hero-feature-icon">✓</div>
+                    <span>USCIS Certified & Approved</span>
+                </div>
+            </div>
 
-    <div class="hero-buttons">
-      <button class="btn primary">Get a Free Quote</button>
-      <button class="btn secondary">Upload Documents</button>
-    </div>
-  </div>
-</section>
+            <div class="hero-cta">
+                <button class="btn btn-primary">Get a Free Quote</button>
+                <button class="btn btn-secondary">Upload Documents</button>
+            </div>
+        </div>
+    </section>
 
-<!-- TRUST -->
-<section class="trust">
-  <div class="trust-items">
-    <span>✔ USCIS Accepted</span>
-    <span>✔ Court & Government Approved</span>
-    <span>✔ ATA Member</span>
-    <span>✔ Fast turnaround — No Rush Fees</span>
-    <span>✔ Accuracy & Confidentiality Guaranteed</span>
-  </div>
-</section>
+    <!-- Trust Bar -->
+    <section class="trust-bar">
+        <div class="trust-container">
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <div class="trust-badge-icon">🏛️</div>
+                    <div class="trust-badge-text">USCIS Accepted</div>
+                </div>
+                <div class="trust-badge">
+                    <div class="trust-badge-icon">⚖️</div>
+                    <div class="trust-badge-text">Court & Government Approved</div>
+                </div>
+                <div class="trust-badge">
+                    <div class="trust-badge-icon">🏆</div>
+                    <div class="trust-badge-text">ATA Member</div>
+                </div>
+                <div class="trust-badge">
+                    <div class="trust-badge-icon">⚡</div>
+                    <div class="trust-badge-text">Fast Turnaround</div>
+                </div>
+                <div class="trust-badge">
+                    <div class="trust-badge-icon">🔒</div>
+                    <div class="trust-badge-text">Confidentiality Guaranteed</div>
+                </div>
+            </div>
 
-<!-- SERVICES -->
-<section class="services">
-  <h2>Certified Translation & Language Services You Can Trust</h2>
-  <p class="section-subtitle">
-    Professional document services for immigration, legal, academic, and business needs — accepted nationwide.
-  </p>
+            <div class="trust-partners">
+                <div class="trust-partners-label">Trusted By</div>
+                <div class="trust-partners-list">
+                    <span class="trust-partner">USCIS</span>
+                    <span class="trust-partner">Courts</span>
+                    <span class="trust-partner">Universities</span>
+                    <span class="trust-partner">Department of Education</span>
+                    <span class="trust-partner">Hospitals</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="service-grid">
-    <div class="service-card">
-      <div class="icon">📝</div>
-      <h3>Certified Translations</h3>
-      <ul>
-        <li>60+ languages supported</li>
-        <li>Notarization available</li>
-      </ul>
-      <a href="#">Learn more →</a>
-    </div>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <div class="section-header">
+                <h2 class="section-title">Certified Translation & Language Services You Can Trust</h2>
+                <p class="section-subtitle">Professional document services for immigration, legal, academic, and business needs — accepted nationwide.</p>
+            </div>
 
-    <div class="service-card">
-      <div class="icon">🏛</div>
-      <h3>Apostille & Authentication</h3>
-      <ul>
-        <li>NY State & federal apostille</li>
-        <li>Hague Convention compliant</li>
-      </ul>
-      <a href="#">Learn more →</a>
-    </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📝</div>
+                    <h3 class="service-title">Certified Translations</h3>
+                    <p class="service-description">USCIS, court, academic, civil and medical document translations with guaranteed accuracy.</p>
+                    <ul class="service-features">
+                        <li>60+ languages supported</li>
+                        <li>Notarization at no extra cost</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn more →</a>
+                </div>
 
-    <div class="service-card">
-      <div class="icon">✍</div>
-      <h3>Notary Public Services</h3>
-      <ul>
-        <li>In-person & remote</li>
-        <li>Flexible scheduling</li>
-      </ul>
-      <a href="#">Learn more →</a>
-    </div>
+                <div class="service-card">
+                    <div class="service-icon">🏛️</div>
+                    <h3 class="service-title">Apostille & Authentication</h3>
+                    <p class="service-description">Apostille services for U.S.-issued documents for international use and recognition.</p>
+                    <ul class="service-features">
+                        <li>NY State & federal apostille</li>
+                        <li>Hague Convention compliant</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn more →</a>
+                </div>
 
-    <div class="service-card">
-      <div class="icon">🎧</div>
-      <h3>Audio & Video Transcription</h3>
-      <ul>
-        <li>Court & immigration-ready</li>
-        <li>Multi-language support</li>
-      </ul>
-      <a href="#">Learn more →</a>
-    </div>
+                <div class="service-card">
+                    <div class="service-icon">✍️</div>
+                    <h3 class="service-title">Notary Public Services</h3>
+                    <p class="service-description">Professional notarization for legal documents, power of attorney, and affidavits.</p>
+                    <ul class="service-features">
+                        <li>In-person & remote notarization</li>
+                        <li>Flexible scheduling options</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn more →</a>
+                </div>
 
-    <div class="service-card">
-      <div class="icon">🗣</div>
-      <h3>Interpreting Services</h3>
-      <ul>
-        <li>OPI, VRI & on-site</li>
-        <li>Legal & medical fields</li>
-      </ul>
-      <a href="#">Learn more →</a>
-    </div>
-  </div>
+                <div class="service-card">
+                    <div class="service-icon">🎧</div>
+                    <h3 class="service-title">Audio & Video Transcription</h3>
+                    <p class="service-description">Certified transcription and translation services for legal and official purposes.</p>
+                    <ul class="service-features">
+                        <li>Court & immigration-ready</li>
+                        <li>Multi-language support</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn more →</a>
+                </div>
 
-  <button class="btn primary center">View All Services</button>
-</section>
+                <div class="service-card">
+                    <div class="service-icon">🗣️</div>
+                    <h3 class="service-title">In-Person Interpreting</h3>
+                    <p class="service-description">Professional interpreters available nationwide for all your communication needs.</p>
+                    <ul class="service-features">
+                        <li>OPI, VRI & on-site interpreting</li>
+                        <li>Legal, medical & business fields</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn more →</a>
+                </div>
+            </div>
 
-<!-- HOW IT WORKS -->
-<section class="process">
-  <h2>Fast & Simple Process</h2>
+            <div style="text-align: center;">
+                <button class="btn btn-primary">View All Services</button>
+            </div>
+        </div>
+    </section>
 
-  <div class="steps">
-    <div class="step"><span>1</span>Request a Quote</div>
-    <div class="step"><span>2</span>Review & Price Confirmation</div>
-    <div class="step"><span>3</span>Translation & Quality Control</div>
-    <div class="step"><span>4</span>Receive Your Certified Translation</div>
-  </div>
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="process-container">
+            <div class="section-header">
+                <h2 class="section-title">Fast & Simple Process</h2>
+                <p class="section-subtitle">Get your certified translation in four easy steps</p>
+            </div>
 
-  <button class="btn primary">Get Started Now</button>
-</section>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Request a Quote</h3>
+                    <p class="step-description">Upload your documents, select the target language and preferred deadline.</p>
+                </div>
 
-<!-- FAQ -->
-<section class="faq">
-  <h2>Frequently Asked Questions</h2>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Review & Confirmation</h3>
+                    <p class="step-description">We review your request and confirm the final price and timeline via email.</p>
+                </div>
 
-  <div class="faq-item">
-    <button class="faq-question">How fast can I get my certified translation?</button>
-    <div class="faq-answer">Most orders are completed the same day or within 24 hours.</div>
-  </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Quality Control</h3>
+                    <p class="step-description">Your project is assigned to qualified translators, editors, and proofreaders.</p>
+                </div>
 
-  <div class="faq-item">
-    <button class="faq-question">Are your translations accepted by USCIS and courts?</button>
-    <div class="faq-answer">Yes. All translations meet USCIS and court standards.</div>
-  </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Receive Translation</h3>
+                    <p class="step-description">You receive:</p>
+                    <ul class="step-features">
+                        <li>Signed & stamped certified translation</li>
+                        <li>Hard copies for pickup or mailing</li>
+                    </ul>
+                </div>
+            </div>
 
-  <div class="faq-item">
-    <button class="faq-question">Do you offer notarization?</button>
-    <div class="faq-answer">Yes. Notarization is available at no additional cost.</div>
-  </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <button class="btn btn-primary">Get Started Now</button>
+            </div>
+        </div>
+    </section>
 
-  <a href="#" class="faq-link">View Full FAQ</a>
-</section>
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="faq-container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
 
-<!-- TESTIMONIALS -->
-<section class="reviews">
-  <h2>What Our Clients Say</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How fast can I get my certified translation?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most orders are completed the same day or within 24 hours.</p>
+                    </div>
+                </div>
 
-  <div class="review-card">
-    ⭐⭐⭐⭐⭐
-    <p>“Fast and accurate translation. Everything was accepted without issues.”</p>
-    <span>— Maria S.</span>
-  </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Are your translations accepted by USCIS and courts?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes. All certified translations meet USCIS, court, and government standards.</p>
+                    </div>
+                </div>
 
-  <div class="review-card">
-    ⭐⭐⭐⭐⭐
-    <p>“Professional, responsive, and very reliable.”</p>
-    <span>— John D.</span>
-  </div>
-</section>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer notarization?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes. Notarization for translations is available upon request at no additional cost.</p>
+                    </div>
+                </div>
 
-<!-- FINAL CTA -->
-<section class="final-cta">
-  <h2>Ready to Get Started?</h2>
-  <p>Upload your documents today and receive a fast, accurate, and officially accepted certified translation.</p>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you work nationwide?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes. We provide services across all U.S. states.</p>
+                    </div>
+                </div>
+            </div>
 
-  <div class="hero-buttons">
-    <button class="btn primary">Get a Free Quote</button>
-    <button class="btn secondary">Upload Documents</button>
-  </div>
-</section>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="#" class="service-link" style="font-size: 1.1rem;">View Full FAQ →</a>
+            </div>
+        </div>
+    </section>
 
-<!-- FOOTER -->
-<footer>
-  <p>📍 147 West 35th Street, Suite 1002, New York, NY 10001</p>
-  <p>📞 Phone: XXX-XXX-XXXX | ✉️ info@consulhub.com</p>
-  <p>✔ ATA Member • ✔ BBB Accredited • ✔ Secure & Confidential • ✔ Nationwide Service</p>
-</footer>
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
 
-<script src="script.js"></script>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"ConsulHub provided a fast and accurate translation for my immigration documents. Everything was accepted without issues."</p>
+                    <div class="testimonial-author">— Maria S.</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Professional, responsive, and very reliable. Highly recommended."</p>
+                    <div class="testimonial-author">— John D.</div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="#" class="service-link" style="color: var(--accent-gold); font-size: 1.1rem;">Read More Reviews →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-container">
+            <h2>Ready to Get Started?</h2>
+            <p>Upload your documents today and receive a fast, accurate, and officially accepted certified translation.</p>
+            <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+                <button class="btn" style="background: var(--primary-navy); color: #fff;">Get a Free Quote</button>
+                <button class="btn" style="background: transparent; color: var(--primary-navy); border: 2px solid var(--primary-navy);">Upload Documents</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-title">Address</div>
+                <a href="https://maps.google.com/?q=147+West+35th+Street,+Suite+1002,+New+York,+NY+10001" class="contact-link" target="_blank">
+                    147 West 35th Street, Suite 1002<br>New York, NY 10001
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-title">Phone</div>
+                <a href="tel:XXX-XXX-XXXX" class="contact-link">XXX-XXX-XXXX</a>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-title">Email</div>
+                <a href="mailto:info@consulhub.com" class="contact-link">info@consulhub.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-badges">
+            <div class="footer-badge">✓ ATA Member</div>
+            <div class="footer-badge">✓ BBB Accredited</div>
+            <div class="footer-badge">✓ Secure & Confidential</div>
+            <div class="footer-badge">✓ Nationwide Service</div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 ConsulHub. All rights reserved.
+        </div>
+    </footer>
+
 </body>
 </html>
