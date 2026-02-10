@@ -1,14 +1,4 @@
 
-        :root {
-            --primary-navy: #1a3a52;
-            --primary-blue: #2d5a7b;
-            --accent-gold: #d4af37;
-            --accent-silver: #c0c0c0;
-            --neutral-light: #f8f9fa;
-            --neutral-dark: #2c3e50;
-            --text-primary: #1a1a1a;
-            --text-secondary: #4a5568;
-        }
 
         * {
             margin: 0;
