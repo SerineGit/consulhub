@@ -1,14 +1,13 @@
 /* CSS Variables */
 
 :root {
-    --primary-navy: #0a4b67;
-    --primary-blue: #285e75;
+    --primary-navy: #398aac;
+    --primary-blue: #3298c4;
     --accent-gold: #d4af37;
     --text-primary: #1a1a1a;
     --text-secondary: #666666;
     --neutral-light: #f8f9fa;
 }
-
 * {
     margin: 0;
     padding: 0;
